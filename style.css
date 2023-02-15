@@ -69,3 +69,40 @@ body {
     font-weight: 700;
 }
 
+/* BUYERS */
+
+.verified {
+    display: block;
+}
+
+.buyer__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+
+.buyer {
+    color: var(--White);
+    background-color: var(--Very_Dark_Magenta)
+}
+
+.buyer__info img {
+    border-radius: 50%;
+    height: 3rem;
+}
+
+.name__and__status {
+    font-weight: 700;
+}
+
+.buyer p {
+    font-weight: 500;
+}
+
+.verified {
+    color: var(--Soft_Pink);
+    margin-top: 0.3rem;
+}
+
+
