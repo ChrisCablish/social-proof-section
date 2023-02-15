@@ -21,6 +21,7 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: var(--White);
 }
 
 .first__half {
@@ -71,8 +72,16 @@ body {
 
 /* BUYERS */
 
+.reviews {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
 .verified {
     display: block;
+    color: var(--Soft_Pink);
+    margin-top: 0.3rem;
+    font-weight: 700;
 }
 
 .buyer__info {
@@ -80,11 +89,15 @@ body {
     align-items: center;
     justify-content: flex-start;
     gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 .buyer {
     color: var(--White);
-    background-color: var(--Very_Dark_Magenta)
+    background-color: var(--Very_Dark_Magenta);
+    margin-bottom: 1.5rem;
+    padding: 2.3rem;
+    border-radius: 10px;
 }
 
 .buyer__info img {
@@ -94,15 +107,19 @@ body {
 
 .name__and__status {
     font-weight: 700;
+    text-align: left;
+}
+
+.name {
+    color: var(--Light_Grayish_Magenta);
 }
 
 .buyer p {
-    font-weight: 500;
-}
-
-.verified {
-    color: var(--Soft_Pink);
-    margin-top: 0.3rem;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.5em;
+    font-size: 15px;
+    color: var(--Light_Grayish_Magenta);
 }
 
 
